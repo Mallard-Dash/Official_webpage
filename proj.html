@@ -1,33 +1,99 @@
 <!DOCTYPE html>
-<html lang="EN">
-        <head>
-        <title>Vincents Projects</title>
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
-        <title>Vincents Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-     <body>
-        <section>
-            <div class="flex-container">
-        <h1>Projects</h1>
-        </section>
-    </div>
-        <section>
-        <div>
-            <a href="index.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Home</span></button></a>
-        </div>
-        <div>
-            <a href="knowledge.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Knowledge and experiences</span></button></a>
-        </div>
-        <div>
-            <a href="cv.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Cv</span></button></a>
-        </div>
-        <div>
-            <a href="who.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Who is Vincent?</span></button></a>
-        </div>
-        </section>
-    </body>
-</html>     
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vincent’s Portfolio – Projects</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Projects</h1>
+  </header>
+
+  <nav class="nav">
+    <a class="button nothing-you-could-do-regular" href="index.html"><span>Home</span></a>
+    <a class="button nothing-you-could-do-regular" href="knowledge.html"><span>Knowledge & Experience</span></a>
+    <a class="button nothing-you-could-do-regular" href="cv.html"><span>CV</span></a>
+    <a class="button nothing-you-could-do-regular" href="who.html"><span>Who is Vincent?</span></a>
+  </nav>
+
+  <main class="content">
+
+    <!-- StellaBorealis -->
+<section class="box project project-with-logo">
+  <img src="StellaBorealis.png" alt="StellaBorealis logo" class="project-logo">
+  <div class="project-text">
+    <h2>StellaBorealis</h2>
+    <p>
+      Formerly known as <em>BudgetPlaner</em>, StellaBorealis is my personal finance and productivity tool.  
+      It includes budgeting, financial calculators, vehicle cost tracking, and a diary.  
+      Version 2.0 brought a complete English refactor and modular design.  
+      Future plans include an AI budgeting assistant and a GUI.
+    </p>
+    <p>
+      🔗 <a href="https://github.com/Mallard-Dash/Budgetplaner" target="_blank">View on GitHub</a>
+    </p>
+  </div>
+</section>
+
+
+    <!-- HealthLogger -->
+    <section class="box project">
+      <img src="health_logger.png" alt="health_logger logo" class="project-logo">
+      <div class="project-text"></div>
+      <h2>Health Logger</h2>
+      <p>
+        HealthLogger is a Swedish-only Python program I built as a milestone in my DevOps journey.
+        It logs health data such as diary entries and BMR calculations into .json files through a menu-based interface.
+        Originally created for practice, but it turned out to be genuinely useful.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Mallard-Dash/Healthlogger_git" target="_blank">View on GitHub</a>
+      </p>
+      </div>
+    </section>
+
+    <!-- Unit-converter -->
+    <section class="box project">
+      <img src="unit_converter.png" alt="unit_converter logo" class="project-logo">
+      <div class="project-text"></div>
+      <h2>Unit Converter</h2>
+      <p>
+        A C-based program that lets the user convert between metric and imperial units.  
+        It includes multiple menus for different categories such as length, weight, volume, and temperature.  
+        An early but important project that helped me practice structured programming and menu systems.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Mallard-Dash/Enhetskonverterare" target="_blank">View on GitHub</a>
+      </p>
+      </div>
+    </section>
+
+    <!-- Student register -->
+    <section class="box project">
+      <img src="student_register.png" alt="student_register logo" class="project-logo">
+      <div class="project-text"></div>
+        <h2>Student register</h2>
+      <p>
+        Student Register
+        A small Python console app built as a school project during my Python course.
+        Manages a class-list with features like adding students, listing them, searching by name, and calculating average age.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Mallard-Dash/Student-register" target="_blank">View on GitHub</a>
+      </p>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

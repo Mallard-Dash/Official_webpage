@@ -1,62 +1,69 @@
 <!DOCTYPE html>
-<html lang="EN">
-        <head>
-        <title>Who is Vincent?</title>
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
-        <title>Vincents Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section>
-            <div class="flex-container">
-        <h1>Who is Vincent?</h1>
-        </section>
-    </div>
-        <section>
-        <div>
-            <a href="index.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Home</span></button></a>
-        </div>
-        <div>
-            <a href="knowledge.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Knowledge and experiences</span></button></a>
-        </div>
-        <div>
-            <a href="cv.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Cv</span></button></a>
-        </div>
-        <div>
-            <a href="proj.html"><button class="button" style="vertical-align:middle"><span class="nothing-you-could-do-regular">Projects</span></button></a>
-        </div>
-        </section>
-        <section class="content">
-            <div class="box">
-                <p>Hi! My name is Vincent and i'm currently studying at Chas-Academy to become a DevOps-engineer.
-                   I was born on the 8th of november 1991, the same year the Sovjet-union dissolved. Cinemas were
-                   showing movies like: "Terminator-2", "Silence of the lambs" and "Home alone" and one of my favourite
-                   songs were released: "Lily was here by David A. Stewart".             
-                    I was raised in Täby just outside of Stockholm with both my parents and also my two younger
-                    brothers. The first time i came in contact with IT was in my early teenage years, when i learned
-                    to build my own basic-looking webpage in Dreamweaver through a 2-week course. 
-                    After that i didn't build more webpages, but i did and still are building my own stationary computers.
-                </p>
-            </section>
-        </div>
-        <img src="visse.jpg" height="400px" width="400px"></a>
-            <section class="content">
-                <div class="box">
-                <p>In my mid 20s i did some basic Arduino projects but if we fast forward to late 2024 when i started studying
-                    mathematics in order to apply for a university-program in economics. The study-material for the math were
-                    in digital form with an extra section about Python-programming. Suddently i started to train myself in Python-programming
-                    in the digital math-book. 
-                    I didn't pass the math-exam, but i didn't let that drag me down because i've just found a new passion; CODING!
-                    After that i started to do my own Python studying, and before i knew it, i've created my first functional program.
-                    It was a converter to calculate arrival time based on speed and distance, not complicated stuff. As i'm writing this,
-                    I have created several programs in both Python, C and C#. But my strength is not in a specific lanuage. It's 
-                    in my ambition and drive. If i'm really into something, i tend to learn twice as fast as normal because I take
-                    a "deep-dive" info everything about the perticular subject. 
-                </p>
-            </section>
-        </div>
-    </body>
-</html>     
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vincent’s Portfolio – Who is Vincent?</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Who is Vincent?</h1>
+  </header>
+
+  <nav class="nav">
+    <a class="button nothing-you-could-do-regular" href="index.html"><span>Home</span></a>
+    <a class="button nothing-you-could-do-regular" href="knowledge.html"><span>Knowledge & Experience</span></a>
+    <a class="button nothing-you-could-do-regular" href="cv.html"><span>CV</span></a>
+    <a class="button nothing-you-could-do-regular" href="proj.html"><span>Projects</span></a>
+  </nav>
+
+  <main class="content">
+    <section class="box">
+      <h2>Hi! I’m Vincent</h2>
+      <p>
+        I’m currently studying to become a DevOps Engineer at Chas Academy. I was born on
+        8 November 1991—the year the Soviet Union dissolved. At the cinema you could catch
+        <em>Terminator 2</em>, <em>The Silence of the Lambs</em>, and <em>Home Alone</em>, and one of my favorite tracks,
+        “Lily Was Here” by Dave Stewart, was on the radio.
+      </p>
+      <p>
+        I grew up in Täby, just outside Stockholm, with my parents and two younger brothers. My first
+        real contact with IT came in my early teens when I took a two-week course in Dreamweaver and
+        built a simple website. I didn’t continue with web development back then, but I did (and still do)
+        build my own desktop PCs.
+      </p>
+    </section>
+
+    <figure class="profile-figure">
+      <img src="visse.jpg" alt="Portrait of Vincent" class="profile-img">
+    </figure>
+
+    <section class="box">
+      <h2>How I Got Into Coding</h2>
+      <p>
+        In my mid-twenties I dabbled with Arduino projects, but fast forward to late 2024: while studying
+        mathematics to apply for an economics program, I found a bonus section about Python in the digital
+        course material. I started experimenting there and got hooked on programming.
+      </p>
+      <p>
+        I didn’t pass the math exam—but I didn’t let that stop me because I had just found a new passion:
+        <strong>coding</strong>. I began self-studying Python and soon built my first functional program: a simple travel-time
+        calculator based on speed and distance. Since then I’ve created several programs in Python, C, and C#.
+        My true strength isn’t one specific language—it’s my <strong>drive and focus</strong>. When I’m into something,
+        I deep-dive and learn fast. That mindset now fuels my path into DevOps. I want to be able to master a lot of programming languages!
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
